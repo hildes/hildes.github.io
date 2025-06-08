@@ -13,6 +13,17 @@
       line-height: 1.6;
     }
     h1 { font-size: 2em; }
+    .timeline details {
+      margin-bottom: 10px;
+    }
+    .timeline summary {
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .timeline .date {
+      color: #555;
+      margin-right: 6px;
+    }
   </style>
 </head>
 <body>
@@ -28,6 +39,49 @@
     <li><strong>Face Mesh AR</strong>: Overlaying 3D accessories on facial landmarks using MediaPipe and Trimesh [<a href="https://github.com/hildes/face-mesh-ar">GitHub</a>]</li>
     <li><strong>Stereo Vision Calibration</strong>: Python + OpenCV pipeline for 3D reconstruction from calibrated stereo cameras [<a href="https://github.com/hildes/stereo-vision">GitHub</a>]</li>
   </ul>
+
+  <h2>Timeline</h2>
+  <div class="timeline">
+    <h3>Education</h3>
+    <details>
+      <summary><span class="date">2015–2020</span> EPFL – Bachelor in Mathematics <em>Student</em></summary>
+      <p>Focused on analysis, algebra, probability. Graduated with a thesis on optimization in electricity microgrids.</p>
+    </details>
+    <details>
+      <summary><span class="date">2020–2022</span> EPFL – Master in Mathematics <em>Graduate Student</em></summary>
+      <p>Specialized in statistics and machine learning. Thesis in survival analysis and causal inference.</p>
+    </details>
+
+    <h3>Work</h3>
+    <details>
+      <summary><span class="date">2022–2023</span> Deloitte Zurich <em>Quantitative Analyst</em></summary>
+      <p>Worked on risk modeling and simulation in financial services.</p>
+    </details>
+    <details>
+      <summary><span class="date">2023–2024</span> JESGO (Tokyo) <em>ML & ESG Developer (part-time)</em></summary>
+      <p>Built ESG scoring tools and automated workflows using Python and Google Apps Script.</p>
+    </details>
+
+    <h3>Projects</h3>
+    <details>
+      <summary><span class="date">2024–Present</span> Stereo Vision Calibration <em>Personal Project</em></summary>
+      <p>Designed a stereo camera system for 3D reconstruction using chessboard-based OpenCV calibration.</p>
+    </details>
+    <details>
+      <summary><span class="date">2024–Present</span> Face Mesh AR <em>Personal Project</em></summary>
+      <p>Built a face tracking app overlaying 3D accessories on MediaPipe face landmarks.</p>
+    </details>
+
+    <h3>Personal Development</h3>
+    <details>
+      <summary><span class="date">2024–2025</span> Japanese Language School – Tokyo <em>Student</em></summary>
+      <p>Intensive Japanese studies (JLPT N4 to N2 level). Focused on conversational and business proficiency.</p>
+    </details>
+    <details>
+      <summary><span class="date">2025–Present</span> Jazz Piano Practice <em>Musician</em></summary>
+      <p>Studying bebop and improvisation with a Berklee-trained Japanese pianist.</p>
+    </details>
+  </div>
 
   <h2>Contact</h2>
   <p>Email: you@example.com</p>
